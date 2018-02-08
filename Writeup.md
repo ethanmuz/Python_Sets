@@ -123,7 +123,7 @@ Ok, so it prints the correct sizes, and I see now it errors when the indexes are
 
 This works perfectly, so the problem must be that I'm filling my array the wrong way. After searching Google, I realize that I should use array.append() instead. So here's the line I'm going to use:
 
-```python
+```
 result.append([set1arr[x],set2arr[y]]);
 ```
 
@@ -148,4 +148,4 @@ Now, it prints product of set multiplication in the proper format.
 
 This is all I wanted to do today, maybe sometime in the future I will add more features, including different set functions and multiplication between more than two sets.
 
-For now, you can find this project on GitHub [Here](https://github.com/ethanmuz/Python_Sets).
+For now, you can find this project on GitHub [here](https://github.com/ethanmuz/Python_Sets).
