@@ -147,5 +147,3 @@ if ((x!=0) | (y!=0)):
 Now, it prints product of set multiplication in the proper format.
 
 This is all I wanted to do today, maybe sometime in the future I will add more features, including different set functions and multiplication between more than two sets.
-
-For now, you can find this project on GitHub [here](https://github.com/ethanmuz/Python_Sets).
