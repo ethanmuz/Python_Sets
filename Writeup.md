@@ -127,4 +127,25 @@ This works perfectly, so the problem must be that I'm filling my array the wrong
 result.append([set1arr[x],set2arr[y]]);
 ```
 
-This worked! Now I just have to change the printing of the sets so that it uses curly braces instead of square brackets.
+This worked! Now I just have to change the printing of the sets so that it uses curly braces instead of square brackets. After a Google search, I learned that using print(content, end='') will allow me to print whatever I need without creating a new line. This will be useful so that I can put all the sets on one line. Here is the code that prints the product of the sets, but using curly braces:
+
+```python
+print("{", end='');
+for x in range(0, len(set1arr)):
+    for y in range(0, len(set2arr)):
+        print("{" + set1arr[x] + "," + set2arr[y] + "}", end='');
+print("}", end='');
+```
+
+However, when I run this, it does not separate each set with a comma. To do this, I add an if statement right before printing the array values, which looks like this:
+
+```python
+if ((x!=0) | (y!=0)):
+    print(",", end='');
+```
+
+Now, it prints product of set multiplication in the proper format.
+
+This is all I wanted to do today, maybe sometime in the future I will add more features, including different set functions and multiplication between more than two sets.
+
+For now, you can find this project on GitHub [Here](https://github.com/ethanmuz/Python_Sets).
