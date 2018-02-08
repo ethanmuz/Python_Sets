@@ -17,16 +17,16 @@ while (set2works == False):
     else:
         print("That input was not a valid set");
 
-print(set1arr);
-print(set2arr);
-
 result = [];
 i=0;
-print(len(set1arr));
-print(len(set2arr));
 for x in range(0, len(set1arr)):
     for y in range(0, len(set2arr)):
-        print(str(x) + " " + str(y));
         result.append([set1arr[x],set2arr[y]]);
         i+=1;
-print(result);
+print("{", end='');
+for x in range(0, len(set1arr)):
+    for y in range(0, len(set2arr)):
+        if ((x!=0) | (y!=0)):
+            print(",", end='');
+        print("{" + set1arr[x] + "," + set2arr[y] + "}", end='');
+print("}", end='');
