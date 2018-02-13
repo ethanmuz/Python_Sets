@@ -20,4 +20,4 @@ Currently, this program only performs set multiplication, however I plan to impl
 
 #### Writeup:
 
-I did a full writeup for developing this program, please take the time to check it out! It can be found [here](../blob/master/Writeup.md) or by the Writeup.md file at this repository's top directory.
+I did a full writeup for developing this program, please take the time to check it out! It can be found [here](../master/Writeup.md) or by the Writeup.md file at this repository's top directory.
