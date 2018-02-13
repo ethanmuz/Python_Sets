@@ -147,3 +147,7 @@ if ((x!=0) | (y!=0)):
 Now, it prints product of set multiplication in the proper format.
 
 This is all I wanted to do today, maybe sometime in the future I will add more features, including different set functions and multiplication between more than two sets.
+
+#### February 12, 2018
+
+So it turns out I was way too Java-oriented when writing this program. I had semicolons at the end of every line, and also my comments were double-slashes (//) insead of hash characters (#). Today I just fixed that up and re-commited.
